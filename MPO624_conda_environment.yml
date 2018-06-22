@@ -5,16 +5,20 @@
    - ioam
  dependencies:
    - python=3
+   - jupyter
    - jupyterlab
+   - spyder
    - rise
    - numpy
    - matplotlib
    - jsanimation
    - scikit-learn
+   - scikit-image
+   - eofs
    - cartopy
-   - jupyter
    - seaborn
    - netcdf4
+   - curl
    - owslib
    - metpy
    - pint
@@ -26,9 +30,11 @@
    - iris
    - pip
    - ffmpeg
+   - imageio
    - pytest
    - ipywidgets
    - pip:
      - python-awips
      - mpldatacursor
      - drilsdown
+     - opencv-python
